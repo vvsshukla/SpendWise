@@ -1,0 +1,24 @@
+.transaction-input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.transaction-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tr-input{
+    margin: 20px;
+    height: 10%;
+}
+
+
+@media screen and (max-width: 540px){
+    .transaction-input{
+        width: 100%;
+    }
+}

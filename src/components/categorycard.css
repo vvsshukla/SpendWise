@@ -1,0 +1,26 @@
+.category-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 20px 20px;
+    background-color: aquamarine;
+}
+
+.category-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:539px){
+    .category-card {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 200px;
+        height: 150px;
+        margin: 10px;
+    }   
+}
