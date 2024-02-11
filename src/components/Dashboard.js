@@ -98,6 +98,7 @@ const Dashboard = () => {
 
     const sortedMonthlyData = SortedData(state.monthlyData);
     const barData = getBarChartData(sortedMonthlyData);
+    console.log('barData:', barData);
 
 
     return (
@@ -115,8 +116,9 @@ const Dashboard = () => {
                 }}/>
             </div>
             <div className="dashboard-lower">
-                <h3>Financial Budget</h3>
+                {(barData && barData.length > 0)?
                 <div className="financial-overview">
+                    <h3>Graphical Overview</h3>
                 <BarChart width={400} height={300} data={barData}>
                     <CartesianGrid strokeDasharray={"3 3"} />
                     <XAxis dataKey="name"/>
@@ -126,6 +128,9 @@ const Dashboard = () => {
                     <Bar dataKey={"Expense Tracker"} fill="#008000" stroke="green" activeBar={<Rectangle stroke="green"/>}/>
                 </BarChart>
                 </div>
+                 : 
+                  <h3>No Transactions available for Graphical Overview</h3>  
+             }
             </div>
         </div>
     );
