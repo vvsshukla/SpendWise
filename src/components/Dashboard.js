@@ -1,4 +1,4 @@
-import React, { useReducer, PureComponent} from "react";
+import React, { useReducer} from "react";
 import "./dashboard.css";
 import LogTransactions from "./LogTransactions";
 import Transactions from "./Transactions";
@@ -116,20 +116,21 @@ const Dashboard = () => {
                 }}/>
             </div>
             <div className="dashboard-lower">
+                <h3>Graphical Overview</h3>
                 {(barData && barData.length > 0)?
                 <div className="financial-overview">
-                    <h3>Graphical Overview</h3>
-                <BarChart width={400} height={300} data={barData}>
-                    <CartesianGrid strokeDasharray={"3 3"} />
-                    <XAxis dataKey="name"/>
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    <Bar dataKey={"Expense Tracker"} fill="#008000" stroke="green" activeBar={<Rectangle stroke="green"/>}/>
-                </BarChart>
+                    
+                    <BarChart width={400} height={300} data={barData}>
+                        <CartesianGrid strokeDasharray={"3 3"} />
+                        <XAxis dataKey="name"/>
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey={"Expense Tracker"} fill="#008000" stroke="green" activeBar={<Rectangle stroke="green"/>}/>
+                    </BarChart>
                 </div>
                  : 
-                  <h3>No Transactions available for Graphical Overview</h3>  
+                  <h4>Log your expenses for Graphical Overview</h4>  
              }
             </div>
         </div>

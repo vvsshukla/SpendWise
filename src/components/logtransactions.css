@@ -15,6 +15,15 @@
     padding: 10px 20px;
     margin: 20px;
     height: 10%;
+    border-radius: 10px;
+}
+
+
+button.tr-input {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    border-radius: 10px;
+    color: white;
 }
 
 

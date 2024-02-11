@@ -1,12 +1,18 @@
 .transactions{
     display: flex;
     flex-direction: column;
-    background-color: #dbf2f5;
+    background-color: #e4efaa94;
     box-sizing: border-box;
     align-items: center;
     padding: 0 20px;
     height: 425px;
     overflow-y: scroll;
+    position: relative;
+}
+
+.transactions h3 {
+    position: absolute;
+    top:50%;
 }
 
 .transaction-card{
@@ -16,7 +22,7 @@
     padding: 10px;
     width: 80%;
     height: 30px;
-    background-color: #c2dfce;
+    background-color: #8edbe5;
     color: black;
     border-radius: 10px;
     margin: 10px;

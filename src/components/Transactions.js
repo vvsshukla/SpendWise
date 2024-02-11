@@ -29,7 +29,7 @@ const Transactions = ({transactions, onDelete}) => {
     }
     return (
         <div className="transactions-history">
-            <h3>Transactions History</h3>
+            <h3>Expenses History</h3>
             <div className="transactions">
                 {
                     transactions.length ? 
@@ -43,7 +43,7 @@ const Transactions = ({transactions, onDelete}) => {
                         </div>
                     </div>
                     )
-                    : <h3>No transactions found</h3>
+                    : <h3>No expenses found</h3>
                 }
             </div>
         </div>

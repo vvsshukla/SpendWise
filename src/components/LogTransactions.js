@@ -47,7 +47,7 @@ const LogTransactions = ({onAdd}) => {
     }
     return (
         <div className="transaction-input">
-             <h3>Log Transactions</h3>
+             <h3>Log Expenses</h3>
              <div className="transaction-form">
                 <input 
                         type="text"
