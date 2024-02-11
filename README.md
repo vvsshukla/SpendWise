@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Spend Wise...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About:
+Spend Wise is an application that is build to track your expenses and your bank statement `wisely.`
 
-## Available Scripts
+It gives the user an overview about how much amount did he spend in a month for the particular item and in what categories.
 
-In the project directory, you can run:
+## Features:
+1. The app allows you to add your expenses through transaction logs and categorise them into different **Categories**.
+2. The amount of money spend on several categories are visible on the dasboard which tells you how much you spend on particluar category.
+3. You can see the list of all transaction you made by adding them through transaction log.
+4. Spend Wise is suitable if the user wants to manage there spend limits and set the budget for a particular month.
+5. User is able to view the total amount spent categoriwise under **Summary**.
+6. User is able to see history of expenses spent by him under **Expenses History**.
+6. User is able to see graphical overview of expenses monthwise under **Graphical Overview**.
 
-### `npm start`
+## How to use?
+1. Add transaction title.
+2. Enter the amount.
+3. Select the category `food`, `travel`, `shopping` etc.
+4. Select the date of expense when it was done
+5. Then click on **`Add`** button to add the transaction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Build for:
+Spend Wise application is a build using react library for the KnowledgeHut upGrad Hackathon 2.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can visit the website by clicking on the following ling below.  
+[Spend Wise]().
 
-### `npm test`
+You can also see an introduction video which gives an overview about the app by clicking the link below.  
+[Video link]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Build by:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project was build by the team `Golden Trident` whose members are:  
+1. Vaibhav Shukla
+2. Sourabh Talreja
+3. Md Sarim Rashid Khan
