@@ -7,9 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* font-size: calc(10px + 2vmin); */
   color: black;
-  /* margin-top: 40px; */
   padding: 40px;
   background-color: bisque;
 }
@@ -20,7 +18,7 @@
 
 .menu-actions a{
   margin: 10px;
-  font-size: 32px; 
+  font-size: 18px; 
 }
 
 @media screen and (max-width:539px){
@@ -35,10 +33,6 @@
     font-size: 12px;
     margin-top: 10px;
   }
-  
-  /* .app-header {
-      margin: 20px;
-  } */
 
   .menu-actions {
     margin-top: 10px;
@@ -54,10 +48,6 @@
   .app-heading {
     font-size: 12px;
   }
-  
-  /* .app-header {
-      margin: 20px;
-  } */
   
   .menu-actions a{
     margin: 10px;

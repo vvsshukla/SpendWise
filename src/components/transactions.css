@@ -11,14 +11,82 @@
 
 .transaction-card{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
-    width: 200px;
-    height: 100px;
+    width: 80%;
+    height: 30px;
     background-color: #c2dfce;
     color: black;
-    border: 2px solid;
     border-radius: 10px;
     margin: 10px;
+    position: relative;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.transactions-history {
+    width: 25%;
+}
+
+.transaction-card .actions{
+    position:absolute;
+    right:10px;
+}
+
+.delete {
+    color: red;
+}
+
+.edit {
+    color: blue;
+}
+
+.btn-yes, .btn-no {
+  outline: none;
+  background: #333;
+  border: none;
+  display: inline-block;
+  padding: 6px 18px;
+  color: #eee;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.add-dialog {
+    width: 400px;
+    height: 400px;
+}
+
+
+@media screen and (max-width:540px){
+    .transactions-history {
+        width: 100%;
+    }
+
+    .transactions{
+        justify-content: center;
+    }
+
+    .transaction-card{
+        width: 100%;
+    }
+
+    .transaction-card .actions{
+        position: absolute;
+        right: 5px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .transactions-history {
+        width: 40%;
+    }
+    .transaction-card{
+        width: 100%;
+    }
 }

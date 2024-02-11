@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
 }
 
 .transaction-form{
@@ -12,6 +12,7 @@
 }
 
 .tr-input{
+    padding: 10px 20px;
     margin: 20px;
     height: 10%;
 }
