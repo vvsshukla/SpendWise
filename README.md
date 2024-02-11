@@ -25,7 +25,7 @@ It gives the user an overview about how much amount did he spend in a month for 
 Spend Wise application is a build using react library for the KnowledgeHut upGrad Hackathon 2.
 
 You can visit the website by clicking on the following ling below.  
-[Spend Wise](spendwise-fv2n.onrender.com/).
+[https://spendwise-fv2n.onrender.com/]().
 
 You can also see an introduction video which gives an overview about the app by clicking the link below.  
 [Video link]()
