@@ -28,7 +28,7 @@ You can visit the website by clicking on the following ling below.
 [https://spendwise-fv2n.onrender.com/]().
 
 You can also see an introduction video which gives an overview about the app by clicking the link below.  
-[Video link]()
+[https://youtu.be/_44gKt8gmJg?si=I7-XTv3dgX2eefiS]()
 
 ## Build by:
 
